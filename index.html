@@ -37,7 +37,7 @@
             </div>
             <div class="form-group">
                 <label for="totBalance">Estimated total balance of all your business deposit accounts ($)?  <span class="glyphicon glyphicon-info-sign"></span></label>
-                <input type="number" name="role" id="totBalance" class="form-control" />
+                <input type="text" ng-model="totBalance" format="currency" name="role" id="totBalance" class="form-control" />
             </div>
           </form>
         </div>
@@ -47,7 +47,7 @@
           <form>
             <div class="form-group">
                 <label for="totExpenses">What are the monthly expenses for your business?</label>
-                <input type="number" name="role" id="totExpenses" class="form-control" />
+                <input type="text" ng-model="totExpenses" format="currency" name="role" id="totExpenses" class="form-control" />
             </div>
             <div class="form-group">
                 <label>How many of the following do you have each month?</label>
