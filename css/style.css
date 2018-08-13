@@ -75,6 +75,9 @@ form {
 .margleft label {
     padding-left: 35px;
 }
+.margleft .form-control {
+    width: 20%;
+}
 .topMenu {
   position: absolute;
   top: 10px;
