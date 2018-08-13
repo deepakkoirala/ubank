@@ -89,6 +89,9 @@ form {
   cursor: pointer;
   color: black;
 }
+.topMenu:hover {
+  background:#DFDFDF;
+}
 
 /* animatiosn */
 #form1 {
