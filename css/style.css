@@ -100,3 +100,14 @@ form {
   opacity:0;
   transform: scale(0.1);
 }
+
+/* input colors */
+.inorg {
+  color:#F07824;
+}
+.inbl {
+  color:#16487E
+}
+.ingr {
+  color:#97C192
+}
