@@ -75,6 +75,8 @@ form {
 }
 .margleft label {
     padding-left: 35px;
+    width: 50%;
+    text-align: right;
 }
 .margleft .form-control {
     width: 20%;
