@@ -1,0 +1,99 @@
+#maindiv {
+  width:100%;
+  height:635px;
+  background:#16487E;
+  display:table;
+  position:relative;
+}
+#maininndiv {
+  background:White;
+  margin:10px;
+  padding:10px;
+  width:77%;
+  border-radius: 0 65% 65% 0 / 0 340% 340% 0;
+  height:600px;
+  position:relative;
+  overflow: hidden;
+}
+.foottext {
+  padding-left:50px;
+  color:#E0EBF4;
+  font-size:35px;
+}
+#rightdiv {
+  margin-top:1%;
+  width:20%;
+  position:absolute;
+  right:20px;
+  top:10px;
+}
+#righttext {
+  margin-top:15%;
+}
+.imgtxt {
+  color:#E0EBF4;
+  font-size:25px;
+  text-align:right;
+}
+.binf {
+  margin-left:7%;
+  margin-bottom:40px;
+  color:#16487E;
+  font-weight:bold;
+}
+form {
+  margin-left:10%;
+}
+.form-group {
+  width:65%;
+}
+.form-group label {
+  text-align:left;
+  color:#16487E;
+  margin-bottom:10px;
+}
+.form-control {
+  width:30%;
+  float:right;
+  color:#16487E;
+}
+.navis {
+  font-size:14px;
+  position:absolute;
+  bottom:20px;
+  font-weight: bold;
+  cursor:pointer;
+}
+.goback {
+  left:2%;
+  color:red;
+}
+.gonext {
+  right:15%;
+  color:#4B6CA0;
+}
+.margleft label {
+    padding-left: 35px;
+}
+.topMenu {
+  position: absolute;
+  top: 10px;
+  left: 40%;
+  background: #D9D9D9;
+  color: white;
+  padding: 0px 25px;
+  cursor: pointer;
+  color: black;
+}
+
+/* animatiosn */
+#form1 {
+  transition:all linear 0.3s;
+}
+#form2 {
+  transition:all linear 0.3s;
+}
+#form1.ng-hide, #form2.ng-hide {
+  opacity:0;
+  transform: scale(0.1);
+}
